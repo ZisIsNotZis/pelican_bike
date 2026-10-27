@@ -60,6 +60,7 @@ pelican_bike.html          The whole product: inline CSS, one SVG scene, and one
 record3.js                 Dev-only deterministic recorder (headless Chromium + DevTools).
 assets/                    Logo, four preview screenshots, and the recorded ride.
 docs/project-status.md     Status and scope of the demo.
+CONTRIBUTING.md            Scope, manual checks, and pull-request expectations.
 LICENSE.md                 AGPL-3.0.
 ```
 
@@ -79,11 +80,11 @@ To record a deterministic ride, use the included helper:
 node record3.js 720 frames3 30
 ```
 
-That writes 720 JPEG frames at 30 fps into `frames3/`. The script expects a Chromium headless shell at the path configured near the top of `record3.js`. `frames*/` is ignored by Git.
+That writes 720 JPEG frames at 30 fps into `frames3/`. It needs Node.js and a Chromium headless shell at the path configured near the top of `record3.js`. `frames*/` is ignored by Git.
 
 ## How to contribute
 
-Small fixes and visual polish are welcome through issues and pull requests. For visual changes, attach a screenshot or a short clip. Keep the page to one HTML file with no runtime dependencies; that constraint is the project.
+Read [CONTRIBUTING.md](CONTRIBUTING.md) for the scope, the manual checklist to walk before a pull request, and the commit style. In short: one change per pull request, a screenshot or clip for anything visual, and keep the page to one HTML file with no runtime dependencies — that constraint is the project.
 
 The demo is otherwise closed as a milestone. See [docs/project-status.md](docs/project-status.md).
 
@@ -108,4 +109,4 @@ The demo is otherwise closed as a milestone. See [docs/project-status.md](docs/p
 
 ## License
 
-[AGPL-3.0](LICENSE.md). The pelican is happy to travel, as long as the source travels with it.
+[AGPL-3.0](LICENSE.md). Copyright © ZisIsNotZis. The pelican is happy to travel, as long as the source travels with it.

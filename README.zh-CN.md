@@ -60,6 +60,7 @@ pelican_bike.html          整个产品：内联 CSS、一个 SVG 场景、一�
 record3.js                 仅开发用的确定性录制脚本（无头 Chromium + DevTools）。
 assets/                    标志、四张预览截图、录好的骑行视频。
 docs/project-status.md     项目状态与范围。
+CONTRIBUTING.md            贡献范围、手动检查清单和 PR 约定。
 LICENSE.md                 AGPL-3.0。
 ```
 
@@ -79,11 +80,11 @@ LICENSE.md                 AGPL-3.0。
 node record3.js 720 frames3 30
 ```
 
-它会把 720 帧、30 fps 的 JPEG 写进 `frames3/`。脚本会去 `record3.js` 顶部配置的路径找 Chromium 无头 shell。`frames*/` 已被 Git 忽略。
+它会把 720 帧、30 fps 的 JPEG 写进 `frames3/`。运行前需要 Node.js，以及一个 Chromium 无头 shell（路径在 `record3.js` 顶部配置）。`frames*/` 已被 Git 忽略。
 
 ## 如何参与
 
-欢迎通过 issue 和 pull request 提交小修复或视觉打磨。涉及画面的改动请附截图或短视频。请把页面保持在单个 HTML 文件、运行时不引入依赖；这条限制就是项目本身。
+先看 [CONTRIBUTING.md](CONTRIBUTING.md)：里面写了改动范围、提交 PR 前要手动过一遍的检查清单，以及提交信息风格。简而言之：一个 PR 只做一件事，涉及画面的改动附截图或短视频，页面保持在单个 HTML 文件、运行时不引入依赖——这条限制就是项目本身。
 
 除此之外，这个 demo 已按里程碑关闭。详见 [docs/project-status.md](docs/project-status.md)。
 
@@ -108,4 +109,4 @@ node record3.js 720 frames3 30
 
 ## 许可证
 
-[AGPL-3.0](LICENSE.md)。鹈鹕乐意到处旅行，只要源代码跟着一起走。
+[AGPL-3.0](LICENSE.md)。版权所有 © ZisIsNotZis。鹈鹕乐意到处旅行，只要源代码跟着一起走。
