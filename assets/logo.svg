@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">Pelican Express</title>
+  <desc id="logoDesc">A white pelican with an orange beak and red scarf riding a red bicycle under a yellow sun.</desc>
+
+  <defs>
+    <linearGradient id="logoBg" x1="16" y1="8" x2="144" y2="152" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0b1d3a"/>
+      <stop offset="1" stop-color="#193a66"/>
+    </linearGradient>
+    <linearGradient id="logoFrame" x1="44" y1="110" x2="116" y2="82" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ff7a6e"/>
+      <stop offset="1" stop-color="#e63946"/>
+    </linearGradient>
+    <linearGradient id="logoBeak" x1="102" y1="45" x2="134" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffd166"/>
+      <stop offset="1" stop-color="#f4a261"/>
+    </linearGradient>
+    <linearGradient id="logoBody" x1="58" y1="58" x2="94" y2="88" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dbe6f2"/>
+    </linearGradient>
+    <radialGradient id="logoSunGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop stop-color="#ffd166" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#ffd166" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="3" y="3" width="154" height="154" rx="36" fill="url(#logoBg)"/>
+  <rect x="3.75" y="3.75" width="152.5" height="152.5" rx="35.25" fill="none"
+        stroke="#7aa7d9" stroke-opacity=".2" stroke-width="1.5"/>
+
+  <!-- sky -->
+  <circle cx="122" cy="39" r="25" fill="url(#logoSunGlow)"/>
+  <circle cx="122" cy="39" r="11" fill="#ffd166"/>
+  <circle cx="28" cy="38" r="1.5" fill="#e9f2ff" opacity=".65"/>
+  <circle cx="42" cy="24" r="1" fill="#e9f2ff" opacity=".45"/>
+  <circle cx="22" cy="58" r="1" fill="#e9f2ff" opacity=".35"/>
+  <g stroke="#dceaff" stroke-linecap="round" opacity=".35">
+    <path d="M16 50h14" stroke-width="2"/>
+    <path d="M10 62h9" stroke-width="1.5"/>
+    <path d="M21 71h7" stroke-width="1.5"/>
+  </g>
+
+  <!-- ground -->
+  <path d="M16 132h128" stroke="#7aa7d9" stroke-opacity=".35" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- bicycle -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="44" cy="110" r="21" stroke="#e8f2ff" stroke-width="4"/>
+    <circle cx="116" cy="110" r="21" stroke="#e8f2ff" stroke-width="4"/>
+    <circle cx="44" cy="110" r="3" fill="#e8f2ff" stroke="none"/>
+    <circle cx="116" cy="110" r="3" fill="#e8f2ff" stroke="none"/>
+    <path d="M44 110 66 84 78 110H44M66 84h38l-26 26M104 84l12 26"
+          stroke="url(#logoFrame)" stroke-width="4.5"/>
+    <path d="M104 84l4-12" stroke="url(#logoFrame)" stroke-width="4"/>
+    <path d="M102 71h12" stroke="#e8f2ff" stroke-width="3.5"/>
+    <circle cx="78" cy="110" r="4.5" stroke="#e8f2ff" stroke-width="2"/>
+  </g>
+
+  <!-- pelican -->
+  <path d="M60 77Q49 77 51 68Q57 68 63 73Z" fill="url(#logoBody)"/>
+  <ellipse cx="76" cy="70" rx="21" ry="15" fill="url(#logoBody)" transform="rotate(-6 76 70)"/>
+  <path d="M86 64Q86 52 94 49L100 50L102 60Q94 63 91 70Z" fill="url(#logoBody)"/>
+  <circle cx="96" cy="48" r="11" fill="url(#logoBody)"/>
+
+  <path d="M104 45Q124 48 134 54Q136 58 130 60L104 56Q100 51 104 45Z" fill="url(#logoBeak)"/>
+  <path d="M104 56Q116 58 130 60Q126 64 116 64Q108 61 104 58Z" fill="#e07a1f"/>
+  <path d="M105 50Q119 53 131 56" fill="none" stroke="#c96a16" stroke-width="1.2" stroke-linecap="round" opacity=".6"/>
+
+  <circle cx="98" cy="46" r="2" fill="#0b1d3a"/>
+  <circle cx="98.7" cy="45.2" r=".7" fill="#ffffff"/>
+
+  <path d="M89 57Q95 64 88 66" fill="none" stroke="#e63946" stroke-width="4" stroke-linecap="round"/>
+  <path d="M88 66Q79 70 72 65" fill="none" stroke="#e63946" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="88" cy="66" r="2.4" fill="#c81d3c"/>
+
+  <ellipse cx="71" cy="70" rx="10" ry="7" fill="#dbe6f2" stroke="#cbd8e6" stroke-width="1"
+           transform="rotate(-10 71 70)"/>
+  <path d="M78 84L82 98L80 107" fill="none" stroke="#f4a261" stroke-width="3.5"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M77 107h7" fill="none" stroke="#f4a261" stroke-width="3" stroke-linecap="round"/>
+</svg>
