@@ -14,8 +14,9 @@ development is planned unless the project's inputs or goals change.
 
 - Demo: [`../pelican_bike.html`](../pelican_bike.html), opened directly in a
   modern browser.
-- Showcase artifacts: `preview_day.png`, `preview_night.png`,
-  `preview_ludicrous_night.png`, `preview_sonic.png`, `pelican_ride.mp4`.
+- Showcase artifacts: `assets/preview_day.png`, `assets/preview_night.png`,
+  `assets/preview_ludicrous_night.png`, `assets/preview_sonic.png`,
+  `assets/pelican_ride.mp4`.
 - Recording helper: [`../record3.js`](../record3.js).
 
 ## Boundaries

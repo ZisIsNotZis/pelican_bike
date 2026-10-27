@@ -6,6 +6,16 @@ node_modules/
 worktrees/
 .worktrees/
 .DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Recording output from record3.js
+frames*/
+
+# Editor backups
+*.bak
+*~
 
 # Local secrets, test caches, and generated logs
 .pytest_cache/
