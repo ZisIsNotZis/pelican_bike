@@ -12,6 +12,8 @@
 
 ![鹈鹕快车：晴天公路上，一只鹈鹕骑着红色单车经过鱼市](assets/preview_day.png)
 
+**已完成。** 验收范围为离线单文件 Pelican Express 骑行体验。[验收记录](COMPLETION.md)。
+
 ## 快速开始
 
 克隆仓库，然后用现代浏览器打开 `pelican_bike.html`。不用安装、不用构建，也不用起服务器。

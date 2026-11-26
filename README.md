@@ -12,6 +12,8 @@
 
 ![Pelican Express: a pelican riding a red bicycle past a fish market on a sunny road](assets/preview_day.png)
 
+**Completed.** Accepted scope: the offline, single-file Pelican Express ride. [Verification and limits](COMPLETION.md).
+
 ## Quick start
 
 Clone the repo and open `pelican_bike.html` in a modern browser. There is no install step, build step, or server.
